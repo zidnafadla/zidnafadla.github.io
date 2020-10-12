@@ -22,27 +22,12 @@
 
     <title>Landing Page</title>
   </head>
-  <body>
+  <body id="body">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="#">ZyDnf</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-          data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-link nav-item" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link nav-item" href="#">Pricing</a>
-            <a class="nav-link nav-item" href="#">Features</a>
-            <a class="nav-link nav-item" href="#">About</a>
-
-            <a class="btn btn-primary nav-item btnCS" href="#">Join Us</a>
-          </div>
-        </div>
+        <a class="navbar-brand" href="/">Zidna Fadla</a>
       </div>
     </nav>
 
@@ -51,9 +36,10 @@
     <!-- Jumbo Tron -->
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Get work done <span>faster</span><br> and <span>better</span>
-          with us</h1>
-        <a href="" class="btn btn-primary btnCS">OUR WORK</a>
+        <h1 class="display-4">Landing <span>Page</span></h1>
+        <a href="#work" style="margin-top: 20px;" class="btn btn-primary btnCS
+          btn-to-work">OUR
+          WORK</a>
       </div>
     </div>
     <!-- End Jumbo Tron -->
@@ -67,87 +53,68 @@
       <div class="row justify-content-center">
         <div class="col-10 info-panel">
           <div class="row">
-            <div class="col-lg">
-              <img src="img/employee.png" alt="employee" class="float-left">
-              <h4>24 Hours</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+            <div class="col-lg pnl-info">
+              <img src="img/html5.svg" alt="html 5" class="float-left">
+              <h4>Html 5</h4>
+              <p>Menggunakan Html 5</p>
             </div>
 
-            <div class="col-lg">
-              <img src="img/hires.png" alt="employee" class="float-left">
-              <h4>High-Res</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+            <div class="col-lg pnl-info">
+              <img src="img/css3.svg" alt="css 3" class="float-left">
+              <h4>CSS 3</h4>
+              <p>Sudah menggunakan CSS 3</p>
             </div>
 
-            <div class="col-lg">
-              <img src="img/security.png" alt="employee" class="float-left">
-              <h4>Security</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+            <div class="col-lg pnl-info">
+              <img src="img/php.svg" alt="PHP" class="float-left">
+              <h4>PHP</h4>
+              <p>Menggunakan PHP 7.4</p>
             </div>
+
+            <div class="col-lg pnl-info">
+              <img src="img/javascript.svg" alt="javascript" class="float-left">
+              <h4>JavaScript</h4>
+              <p>Dan ditaburi dengan Javascript</p>
+            </div>
+
           </div>
         </div>
       </div>
 
       <!-- Working space -->
 
-      <div class="row workingspace">
-        <div class="col-lg-6">
-          <img src="img/workingspace.png" alt="workingspace" class="img-fluid">
-        </div>
-        <div class="col-lg-5">
-          <h3>You <span>work</span> like at <span>home</span></h3>
-          <p>Bekerja dengan suasana hati yang lebih asik dan mempelajari hal
-            baru setiap harinya.</p>
-          <a href="" class="btn btn-primary btnCS">Gallery</a>
-        </div>
-      </div>
+      <section id="work" class="work">
+        <h5 class="title-work">Our Work</h5>
 
-      <!-- end Working Space -->
-
-      <!-- Testimonial -->
-
-      <section class="testimonial">
-        <div class="row justify-content-center quote">
-          <div class="col-lg-8">
-            <h5>" Bekerja dengan suasana hati yang lebih asik dan mempelajari
-              hal
-              baru setiap harinya. "</h5>
+        <div class="row workingspace">
+          <div class="col-lg-6">
+            <img src="img/pemilihan-osis_banner.png" alt="pemilihan-osis_banner"
+              class="img-fluid">
+          </div>
+          <div class="col-lg-5">
+            <h3>Pemilihan <span>Osis</span> With <br> Codeigniter <span>4</span></h3>
+            <p>Website pemilihan osis buatan saya sendiri *kecuali template
+              adminya hehe</p>
+            <a href="/pm-osis" class="btn btn-primary btnCS">Check
+              It</a>
           </div>
         </div>
 
-        <div class="row justify-content-center">
-          <div class="col-lg-6 justify-content-center d-flex">
-            <figure class="figure">
-              <img src="img/img1.png" class="figure-img img-fluid
-                rounded-circle"
-                alt="testi_1">
-            </figure>
-            <figure class="figure">
-              <img src="img/img2.png" class="figure-img img-fluid
-                rounded-circle active"
-                alt="testi_2">
-              <figcaption class="figure-caption">
-                <h5>Sunny Ye</h5>
-                <p>Designer</p>
-              </figcaption>
-            </figure>
-            <figure class="figure">
-              <img src="img/img3.png" class="figure-img img-fluid
-                rounded-circle"
-                alt="testi_3">
-            </figure>
-          </div>
-        </div>
+
+
+
       </section>
 
-      <!-- End Testimonial -->
-
+      <!-- end Working Space -->
 
       <!-- Footer -->
 
       <div class="row">
         <div class="col">
-          <p class="footer">2020 All Rights Reserved by Zydnf</p>
+          <p class="footer">2020 <span class="l">All Rights</span> Reserved by
+            <span
+              class="username">Zidna
+              Fadla</span></p>
         </div>
       </div>
 
@@ -163,9 +130,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
@@ -174,5 +140,6 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"></script>
+    <script src="my.js"></script>
   </body>
 </html>
