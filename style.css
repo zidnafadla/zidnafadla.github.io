@@ -143,6 +143,108 @@ margin-top: 120px;
     border-radius: 40px;
 }
 
+.btnBlock {
+    border-radius: 0 !important;
+}
+
+.modal-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s opacity 0,5s;
+}
+
+.modal-active {
+visibility: visible;
+opacity: 1;
+}
+
+.modal-c {
+    background-color: white;
+    width: 50%;
+    justify-content: center;
+    
+    border-radius: 2.5px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    
+    margin-left: 5%;
+    margin-right: -25%;
+    z-index: 3;
+
+    
+}
+.modal-d{
+    visibility: hidden;
+    opacity: 0;
+    margin-left: 0;
+    justify-content: center;
+    z-index: 3;
+}
+
+.modal-d h5 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.lang {
+    margin-top: 1.2%;
+}
+
+.hr::after {
+    content :'';
+    display: block;
+    border-bottom: 1px solid gray;
+    width: 50%;
+    margin: auto;
+    margin-top: 1.5%;
+}
+
+.modal-c h4 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.modal-d .lang label {
+    margin-top: -2%;
+}
+
+
+
+.js {
+    background-color: #f1e05a !important;
+}
+.php {
+    background-color: #4F5D95 !important;
+}
+.css {
+    background-color: #563d7c !important;
+}
+.html {
+    background-color: #e34c26 !important;
+}
+.modal-footer .btnChc {
+    display: inline;
+}
+.att {
+font-weight: bold;
+}
+.att span, .att span a {
+    font-weight: normal;
+    color: black;
+}
+
+
+
 
 /* DESKTOP Version */
 
@@ -177,6 +279,26 @@ margin-top: 120px;
 
     .workingspace {
         text-align: left;
+    }
+
+    /* modal */
+    .modal-c{
+        margin-right: 0;
+      
+    }
+
+
+    .modal-d {
+    border-radius: 2.5px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+
+    visibility: visible;
+    opacity: 1;
+
+    margin-left: 25px;
+    background-color: white;
+    width: 20%;
+    height: 350px;
     }
 
 }
